@@ -9,7 +9,7 @@ The code was tested with Python 3.10.16 on Windows 11.
 
 Segments droplets in OIR microscopy images using Cellpose and quantifies their fluorescence intensities. The notebook outputs CSV files, segmentation masks, and PNG images.
 
-### `adjacency_background_correction_and_data_preparation.ipynb`
+#### `adjacency_background_correction_and_data_preparation.ipynb`
 
 Performs droplet-adjacency analysis, fluorescence background correction, and data preparation. The notebook generates:
 
@@ -17,23 +17,22 @@ Performs droplet-adjacency analysis, fluorescence background correction, and dat
 - `prepared_data_fam_rna.pkl`
 - `prepared_data_comm.pkl`
 
-### `atps_droplet_communication_analysis.ipynb`
+#### `atps_droplet_communication_analysis.ipynb`
 
 Performs normalization, statistical analysis, and plotting for:
 
 - FITC-DEX exchange
 - FAM-RNA exchange
-- replicase-mediated inter-droplet communication
-- cooperative genomic RNA replication
+- TcRR and TcCRR via inter-droplet molecular diffusion
 
-### `cellpose3.yml`
+#### `cellpose3.yml`
 
 Conda environment used for:
 
 - `droplet_segmentation_and_quantification.ipynb`
 - `adjacency_background_correction_and_data_preparation.ipynb`
 
-The same environment can also run `atps_droplet_communication_analysis.ipynb` as provided. RainCloud plots use `scale="width"`.
+The same environment can also run `atps_droplet_communication_analysis.ipynb` as provided.
 
 ## Data
 
