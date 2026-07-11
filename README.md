@@ -80,5 +80,3 @@ main_dir = os.path.join(os.path.curdir, "Test data")
 ```
 
 For the final analysis, set the input directory in `atps_droplet_communication_analysis.ipynb` to the directory containing the three processed full-dataset pickle files.
-
-Run the notebooks from the repository root directory so that relative paths are resolved correctly.
